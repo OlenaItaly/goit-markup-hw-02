@@ -1,0 +1,91 @@
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  background: #e5e5e5;
+  color: #2e2f42;
+  font-family: "Roboto";
+  font-style: normal;
+}
+/* header */
+.logo {
+  font-family: "Raleway";
+  font-style: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #2e2f42;
+  letter-spacing: 0.03em;
+}
+
+.acento {
+  color: blue;
+}
+. menu {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.address .link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* main */
+/* section hero */
+.hero {
+  background: #2e2f42;
+}
+.hero .h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  /* or 107% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+.hero .button {
+  height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  background: #4d5ae5;
+  color: #ffffff;
+}
+/* section about company */
+.about {
+  background-color: #ffffff;
+}
+.h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+/* section work */
+.work {
+  background-color: #ffffff;
+}
+.h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+/* section Our Team */
