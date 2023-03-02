@@ -7,13 +7,12 @@
 body {
   background: #e5e5e5;
   color: #2e2f42;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
 }
 /* header */
 .logo {
   font-family: "Raleway";
-  font-style: 800;
   font-size: 18px;
   line-height: 1.33;
   color: #2e2f42;
@@ -24,35 +23,34 @@ body {
   color: blue;
 }
 . menu {
-  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.5;
-  /* identical to box height, or 150% */
-
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.menu:hover,
-.menu:focus {
-  color: #404bbf;
-}
 
 .address .link {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+.menu:hover,
+.menu:focus,
 .mail .link:hover,
-.mail .link:focus {
+.mail .link:focus,
+.tel .link:hover,
+.tel .link:focus {
   color: #404bbf;
 }
 /* main */
 /* section hero */
-.hero {
+.hero,
+.footer {
   background: #2e2f42;
+  color: #ffffff;
 }
 .hero .h1 {
   font-weight: 700;
@@ -62,8 +60,6 @@ body {
 
   text-align: center;
   letter-spacing: 0.02em;
-
-  color: #ffffff;
 }
 .hero .button,
 .nav .button {
@@ -77,7 +73,9 @@ body {
   color: #ffffff;
 }
 /* section about company */
-.about {
+.about,
+.work,
+.portfolio {
   background-color: #ffffff;
 }
 .h3 {
@@ -86,10 +84,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-/* section work */
-.work {
-  background-color: #ffffff;
-}
+
 .h2 {
   font-weight: 700;
   font-size: 36px;
@@ -97,18 +92,11 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 }
-/* footer */
-.footer {
-  background: #2e2f42;
-  color: #ffffff;
-}
+
 .footer .logo {
   color: #ffffff;
 }
-/* main Portfolio */
-.portfolio {
-  background: #ffffff;
-}
+
 /* section portfolio nav */
 .nav .button {
   color: #4d5ae5;
