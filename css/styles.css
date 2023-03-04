@@ -38,6 +38,7 @@
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
 }
@@ -59,6 +60,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  color: var(--color-text-white);
 }
 
 .title-h-two {
@@ -76,10 +78,10 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.title-h-one,
+
 .title-h-two,
 .title-h-three {
-  colore: var(--colore-title);
+  color: var(--colore-title);
 }
 
 /* invisible title portfolio main */
@@ -90,18 +92,14 @@ body {
 .hero .button,
 .nav .button {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  height: 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
+
   letter-spacing: 0.04em;
   background: var(--color-button-primery);
   color: var(--color-buton-white);
   cursor: pointer;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
 }
 
 .hero .button:hover,
@@ -134,18 +132,19 @@ body {
 .accent-header {
   color: var(--coloro-logo-h);
 }
+
 .menu {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--colore-menu-link);
-  cursor: pointer;
 }
+
 .address .link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -169,7 +168,6 @@ body {
 /* ===========section Hero============== */
 .hero {
   background: var(--colore-background-section-navy-blu);
-  color: var(--color-text-white);
 }
 /* ============section ABOUT================= */
 /* ============section WORK ==================*/
