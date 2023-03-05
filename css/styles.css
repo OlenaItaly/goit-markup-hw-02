@@ -153,6 +153,9 @@ body {
   color: var(--color-text);
   cursor: pointer;
 }
+.address {
+  font-style: normal;
+}
 .menu:hover,
 .menu:focus,
 .menu:active,
